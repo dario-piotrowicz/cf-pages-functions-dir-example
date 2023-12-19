@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "wrangler pages dev ./public",
+    "deploy": "wrangler pages deploy ./public",
+    "functions:build": "wrangler pages functions build --outdir ./.functions-output"
+  },
+  "devDependencies": {
+    "wrangler": "^3.21.0"
+  }
+}
